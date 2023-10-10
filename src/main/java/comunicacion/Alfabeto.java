@@ -23,8 +23,11 @@ public class Alfabeto extends Pictograma{
 	@Override
 	public String toString() {
 		String men = "";
-		for(String letra : letras) {
-			men += letra + ", ";
+		for(int i = 0; i < letras.length; i++) {
+			men += letras[i];
+			if (i < letras.length - 1) {
+		        men += ", ";
+		    }
 		}
 		return men;
 	}
