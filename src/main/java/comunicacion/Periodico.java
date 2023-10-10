@@ -21,6 +21,7 @@ public class Periodico extends Escrito{
 		return interpretacion;
 	}
 	
+	@Override
 	public String toString() {
 		return getOrigen() + "\n" + getTitulo() + "\n" + getAutor() + "\n" + getPaginas() + "\n"
 				+ getFecha() + "\n" + getPrimicia();

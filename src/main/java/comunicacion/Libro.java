@@ -23,6 +23,7 @@ public class Libro extends Escrito{
 		return interpretacion;
 	}
 	
+	@Override
 	public String toString() {
 		return getOrigen() + "\n" + getTitulo() + "\n" + getAutor() + "\n" + getPaginas() + "\n"
 				+ getCo_autor() + "\n" + getEditorial() + "\n" + getEdicion();

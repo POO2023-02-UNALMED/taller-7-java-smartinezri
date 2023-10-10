@@ -19,6 +19,7 @@ public class Fabula extends Escrito {
 		return interpretacion;
 	}
 	
+	@Override
 	public String toString() {
 		return getOrigen() + "\n" + getTitulo() + "\n" + getAutor() + "\n" + getPaginas() + "\n"
 				+ getEnsenanza();
